@@ -15,7 +15,7 @@ function App() {
       <div className="main flex sm:h-screen justify-center items-center text-white ">
         <div className="calculator w-screen h-full sm:h-auto sm:w-96 border border-slate-200 border-solid rounded p-1">
           <p className="text-center text-white">O</p>
-          <div className="display h-52 sm:h-48 border border-slate-200 border-solid rounded text-right py-5 pr-5 pl-4">
+          <div className="display h-60 sm:h-48 border border-slate-200 border-solid rounded text-right py-5 pr-5 pl-4">
             <div className="previous-operand h-1/2 font-medium text-lg break-all overflow-hidden leading-9">
               {previousOperand} {operation}
             </div>
