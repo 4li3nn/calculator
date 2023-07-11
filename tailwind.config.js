@@ -3,6 +3,10 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {},
+    minHeight: {
+      "1/3": "33%",
+      "1/2": "50%",
+    },
   },
   plugins: [],
 };

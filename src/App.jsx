@@ -12,8 +12,8 @@ function App() {
   );
   return (
     <>
-      <div className="main w-screen sm:h-full md:h-screen flex justify-center items-center text-white">
-        <div className="calculator w-96 sm:m-20 border border-slate-200 border-solid rounded p-1">
+      <div className="main flex sm:h-screen justify-center items-center text-white ">
+        <div className="calculator w-screen h-screen sm:w-96 border border-slate-200 border-solid rounded p-1">
           <p className="text-center text-white">O</p>
           <div className="display h-48 border border-slate-200 border-solid rounded text-right py-5 pr-5 pl-4">
             <div className="previous-operand h-1/2 font-medium text-lg break-all overflow-hidden leading-9">
